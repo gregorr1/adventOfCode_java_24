@@ -1,4 +1,3 @@
-import Naloga9.Naloga9;
 import tools.StopWatch;
 
 public class Main {
@@ -6,7 +5,7 @@ public class Main {
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();
         
-        Naloga9.naloga9_2();
+        Naloga10.naloga10_2();
     
         stopWatch.stop();
         System.out.println("This took " + stopWatch.getElapsedTime() + " ms.");
